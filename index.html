@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Ritik</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png">Spotify</li>
+            <li>Home </li>
+            <li>About </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="left-pane"> 
+            <div class="upper-menu">
+                <div class="upper-menu-home">
+                    <h1><i class="fa-solid fa-house" style="color: #b3b3b3;"></i><span>   </span>Home</h1><br>
+                </div>
+                <div class="upper-menu-search">
+                    <h1><i class="fa-solid fa-magnifying-glass" style="color: #b3b3b3;"></i><span>   </span>Search</h1>
+                </div>
+            </div>
+            <div class="lower-menu">
+                <div class="lower-menu-heading">
+                    <div><h1><i class="fa-solid fa-layer-group fa-rotate-90" style="color: #b3b3b3;"></i><span> </span>Your Library</h1></div>
+                    <div>
+                        <i class="fa-solid fa-plus" style="color: #b3b3b3; font-size: 2em; margin: 5px;"></i>
+                        <i class="fa-solid fa-arrow-down fa-rotate-270" style="color: #b3b3b3; font-size: 2em;"></i>
+                    </div>
+                </div>
+                <!-- <div class="lower-menu-typebar">
+                    <div class="typebar"><h3>Playlists</h3> </div>
+                    <div class="typebar"><h3>Podcasts & Shows</h3></div>
+                    <div class="typebar"><h3>Artists</h3></div>
+                </div>    -->
+            </div>
+        </div>
+        <div class="right-pane">
+            <div class="upper-button-bar">
+                <div class="navigation-buttons">
+                    <button class="top-button"><i class="fa-solid fa-angle-up fa-rotate-270" style="color: #b3b3b3;"></i></button>
+                    <button class="top-button"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #b3b3b3;"></i></button>
+                </div>
+                <div class="other-controls">
+                    <button class="top-button"><i class="fa-solid fa-bell" style="color: #b3b3b3;"></i></button>
+                    <button class="top-button"><i class="fa-solid fa-users" style="color: #b3b3b3;"></i></button>
+                    <button class="top-button"><i class="fa-solid fa-user" style="color: #b3b3b3;"></i></button>
+                </div>     
+            </div>
+            <div class="playlist-area">
+                <h1>Good Morning</h1><br><br>
+                <div class="playlist-grid">
+                    <div class="card"><img src="./covers/1.jpg" alt="" class="image">
+                        <div class="playlist-name">
+                            <div class="playlist-name-heading"> English</div>
+                            <div>
+                            <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                            </div>
+                        </div> 
+                     </div>
+                    <div class="card"><img src="./covers/2.jpg" alt="" class="image">
+                        <div class="playlist-name">
+                            <div class="playlist-name-heading"> Gym</div>
+                            <div>
+                            <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                            </div>  
+                        </div> 
+                    </div>
+                    <div class="card"><img src="./covers/3.jpg" alt="" class="image">
+                        <div class="playlist-name">                           
+                           <div class="playlist-name-heading"> Punjabi</div>
+                            <div>
+                            <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="card"><img src="./covers/4.jpg" alt="" class="image">
+                        <div class="playlist-name">
+                            <div class="playlist-name-heading"> Haryanvi</div>
+                            <div>
+                            <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="card"><img src="./covers/5.jpg" alt="" class="image">
+                        <div class="playlist-name">                           
+                            <div class="playlist-name-heading"> I-Pop Superhits</div>
+                            <div>
+                            <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="card"><img src="./covers/6.jpg" alt="" class="image">
+                        <div class="playlist-name">                            
+                            <div class="playlist-name-heading"> Monsoon Love Hits</div>
+                            <div>
+                            <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="most-listened pane">
+                <div class="most-listened-heading">
+                    <div><h1>Made for Ritik Malhotra</h1></div>
+                    <div><h3>Show More</h3><br><br></div>
+
+                </div>
+                <div class="playlists">
+                    <div class="mixes">
+                        <div class="mix-image" style="background-image: url(./covers/5.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Daily Mix
+                                </div>
+                                <div>
+                                <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Daily Mix</b></h2>     
+                    </div>
+                    <div class="mixes">
+                        <div class="mix-image" style="background-image: url(./covers/6.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Daily Mix 1
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Daily Mix 1</b></h2>
+                    </div>
+                    <div class="mixes">
+                        <div class="mix-image" style="background-image: url(./covers/7.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Daily Mix 2
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Daily Mix 2</b></h2>
+                    </div>
+                    <div class="mixes">
+                        <div class="mix-image" style="background-image: url(./covers/8.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Daily Mix 3
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Daily Mix 3</b></h2>
+                    </div>
+                    <div class="mixes">
+                        <div class="mix-image" style="background-image: url(./covers/9.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Daily Mix 4
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Daily Mix 4</b></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="song-list pane">
+                <h1>Songs</h1><br><br>
+                <div class="songs-container">
+                    <div class="song">
+                        <div class="mix-image" style="background-image: url(./covers/10.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Song 1
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Song 1</b></h2>
+                    </div>
+                    <div class="song">
+                        <div class="mix-image" style="background-image: url(./covers/1.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Song 2
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Song 2</b></h2>
+                    </div>
+                    <div class="song">
+                        <div class="mix-image" style="background-image: url(./covers/2.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Song 3
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Song 3</b></h2>
+                    </div>
+                    <div class="song">
+                        <div class="mix-image" style="background-image: url(./covers/3.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Song 4
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Song 4</b></h2>
+                    </div>
+                    <div class="song">
+                        <div class="mix-image" style="background-image: url(./covers/4.jpg);">
+                            <div class="mix-name">
+                                <div class="mix-name-title">
+                                    Song 5
+                                </div>
+                                <div>
+                                    <button class="play-button"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h2><b>Song 5</b></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="lower-play-bar">
+        <div class="song-playing play-bar">
+            <div class="song-playing-current">
+                <img src="./covers/10.jpg" alt="" class="lower-play-bar-img">
+                <div class="song-playing-name">
+                    <h3><b>Song Name</b></h3>
+                    <div style="margin: 10px;">
+                        <i class="fa-regular fa-heart" style="color: #b3b3b3;"></i>
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+        <div class="lower-play-bar-music play-bar">
+            <div class="lower-play-bar-music-icons">
+                <div class="lower-play-bar-icons-control">
+                    <i class="fa-solid fa-shuffle" style="color: #b3b3b3;"></i>
+                </div>
+                <div class="lower-play-bar-icons-control">
+                    <i class="fa-solid fa-forward-step fa-flip-horizontal fa-lg" style="color: #b3b3b3;"></i>
+                </div>
+                <div class="lower-play-bar-icons-control ">
+                    <!-- <i class="fa-regular fa-circle-play fa-xl" style="color: #b3b3b3;"></i> -->
+                    <button class="play-button lower-play"><i class="fa-sharp fa-solid fa-play fa-xl" style="color: #000000;"></i></button>
+                </div>
+                <!-- <i class="fa-sharp fa-solid fa-play fa-2xs" style="color: #b3b3b3;"></i> -->
+                <div class="lower-play-bar-icons-control">
+                    <i class="fa-solid fa-forward-step fa-lg" style="color: #b3b3b3;"></i>
+                </div>
+                <div class="lower-play-bar-icons-control">
+                    <i class="fa-solid fa-repeat fa-lg" style="color: #b3b3b3;"></i>
+                </div>
+            </div>
+            <div class="lower-play-bar-music-timeline">
+                <div style="margin: 5px; color: #b3b3b3;">0:00</div>
+                <hr> 
+                <div style="margin: 5px; color: #b3b3b3;">3:00</div>
+            </div>
+        </div> 
+        <div class="lower-play-bar-settings play-bar">
+            
+            <button class="lower-settings"><i class="fa-solid fa-microphone" style="color: #b3b3b3;"></i></button>
+            
+            <button class="lower-settings"><i class="fa-solid fa-list" style="color: #b3b3b3;"></i></button>
+            <button class="lower-settings"><i class="fa-solid fa-up-right-and-down-left-from-center" style="color: #b3b3b3;"></i></button>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
